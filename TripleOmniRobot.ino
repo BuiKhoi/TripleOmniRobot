@@ -1,3 +1,6 @@
+#define MAXIMUM_MOTOR_SPEED 255
+#define MINIMUM_MOTOR_SPEED -255
+
 int MotorInput[3] = {2, 4, 6};
 int MotorOutput[3] = {3, 5, 7};
 

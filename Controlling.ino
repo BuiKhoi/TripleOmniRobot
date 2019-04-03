@@ -10,7 +10,6 @@ void ProcessDirection(int* Controls) {
   }
   
   for (int i=0; i<3; i++) {
-    int temp = 0;
     for (int j=0; j<3; j++) {
       Motors[i] += Weight[i][j] * Controls[j];
     }

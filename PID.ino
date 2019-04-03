@@ -3,6 +3,7 @@ void PidCalc() {
   CalcedMotors[0] = CalcM1();
   CalcedMotors[1] = CalcM2();
   CalcedMotors[2] = CalcM3();
+  SetSpeed(CalcedMotors);
 }
 
 int CalcM1() {
